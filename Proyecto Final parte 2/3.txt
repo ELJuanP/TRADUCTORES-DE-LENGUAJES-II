@@ -1,0 +1,7 @@
+0: t0 = 10
+1: count = t0
+2: t1 = 20
+3: t2 = 3
+4: t3 = t1 * t2
+5: t4 = count + t3
+6: total = t4

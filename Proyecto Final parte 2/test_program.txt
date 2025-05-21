@@ -1,0 +1,11 @@
+# CASOS VÁLIDOS
+x = 5;
+y = x + 3 * (2 + 1);
+result = (y - 4) / 2;
+a = 10 - 2 - 3;
+b = 8 * 2 / 4;
+
+# CASOS INVÁLIDOS (deberían producir error)
+c = 7 + ;
+d = (3 * 5;
+e = 2 ** 3;

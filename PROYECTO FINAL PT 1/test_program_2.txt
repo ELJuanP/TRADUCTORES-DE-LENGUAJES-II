@@ -1,0 +1,28 @@
+# Declaraciones simples y con inicialización
+var x;
+var y = 5;
+
+# Asignaciones válidas e inválidas
+x = 10;
+# La siguiente línea debe fallar (variable z no declarada)
+z = 3;
+
+# Expresiones con operadores y paréntesis
+var a = (1 + 2) * 3;
+var b = 10 / (2 - 2);   # sintácticamente válido (división por cero no detectada)
+
+# Comentarios
+# Este comentario se ignora
+
+# Errores de sintaxis
+var c = ;              # falta expresión
+var d                 # falta ';'
+var e = 7 *;           # falta operando
+
+# Casos límite
+var _temp = 007;
+var big = 2147483647;
+var empty = ();
+
+# Redeclaración (se ignora)
+var x;
